@@ -1,0 +1,31 @@
+
+         @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@300&display=swap');
+         .btn-grad {background-image: linear-gradient(to right, #C02425 0%, #F0CB35  51%, #C02425  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+          .background{
+            background-image: url(./images/bg_image.jpg);
+            background-size: cover;
+            height: 100vh;
+          }
+
+        .body{
+          font-family: 'Poppins', sans-serif;
+        }
